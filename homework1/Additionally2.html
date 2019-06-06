@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/normalize.css">
+        <link media="all" href="../css/style.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Homeworks</title>
+        <link rel='shortcut icon' href="../img/favicon.png" type="image/png">
+    </head> 
+    <body>
+        <div class="container">
+            <div class="row">
+                <header class="col-12 font-weight-bolder text-center py-3 px-0 d-flex justify-content-between flex-column flex-sm-row main-header position-relative" style="background-image: url('../img/header.jpg')">
+                    <div class="heading">
+                        <p>Bilichenko Aleksandr</p>
+                        <p>Full Stack 6</p>
+                    </div>
+                    <div class="d-flex justify-content-between px-0">
+                        <div class="align-self-center d-sm-none">
+                            <button class="navbar-toggler navbar-light border-secondary" data-toggle="collapse" data-target="#collapse_target">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <nav class="navbar navbar-expand-sm navbar-light d-flex navigation px-0">
+                        <div class="collapse navbar-collapse" id="collapse_target">
+                            <ul class="list-unstyled d-sm-flex flex-sm-row navbar-nav mr-sm-3 justify-content-between">
+                                <li class="text-center nav-item navigation-list-block special pt-2">
+                                    <div class="dropdown show">
+                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                          Home Work (Actual)
+                                        </a>
+                                      
+                                        <div class="dropdown-menu falling-list" aria-labelledby="dropdownMenuLink">
+                                            <a class="dropdown-item" href="./required.html">Required</a>
+                                            <a class="dropdown-item" href="./Additionally1.html">Aditionally 1</a>
+                                            <a class="dropdown-item" href="./Additionally2.html">Aditionally 2</a>
+                                        </div>
+                                      </div>
+                                </li>
+                                <li class="text-center nav-item navigation-list-block"><a href="#" class="nav-link text-light">Archive</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </header>
+            </div>
+            <div class="row">
+                <main class="col-12  wrapper ">
+                    <div class="hw-first-required mt-3 mx-3">
+                          <h1>Additionally 2</h1>
+                          <div class="exersise-box">
+                            <p><pre class="text-light">
+Напилите кодец, который работает с массивом произвольных целых чисел
+Ваш скрипт должен вывести в консоль все числа больше 50 
+Посказка: используйте оператор цикла и условный оператор</pre>
+
+<code> numbers = [ 254, 115, 78, 25, 91, 45, 37 ] </code>
+</p>
+                            <div>
+                                <button onclick="logBigNums()" class="btn btn-secondary text-center">Answers</button>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <div class="row">
+                <footer class="col-12 font-weight-bolder text-center py-3 down-side">
+                    Copy right from 2019. 'A-level' company use only.
+                </footer>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script> 
+            const logBigNums = () => {
+                var array = [ 254, 115, 78,25, 91, 45, 37];
+                var maximaizer = 50;
+                for (var i = 0; i < array.length; i++)
+                    if (array[i] >= maximaizer) 
+                    alert(array[i])
+            }
+    </script>
+</body>
+</html>

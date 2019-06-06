@@ -1,0 +1,94 @@
+*,
+*:before,
+*:after {
+box-sizing: border-box;
+}
+body {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+   
+}
+.container {
+    min-width: 1200px;
+    margin: 0 auto;
+}
+.main-header {
+    max-width: 1200px;
+    height: 400px;
+    position: relative;
+}
+.navigation {
+    position: absolute;
+    top: 85.6%;
+    left: 0;
+    background-color: rgba(247, 0, 227, 0.192);
+    border-top: 2px solid rgb(206, 206, 206);
+    width: 100%;
+}
+.navigation-list-block {
+    width: 600px;
+}
+
+.special {
+    border-right: 2px solid rgb(206, 206, 206);
+}
+.show a {
+    color: rgb(206, 206, 206);
+    text-decoration: none;
+}
+.falling-list {
+    position: absolute;
+    left: 35%
+}
+.heading {
+    padding-top: 20px;
+    width: 300px;
+    height: 100px;
+    color: rgb(216, 196, 196);
+    font-size: 18px;
+    background-color: rgba(255, 72, 0, 0.247);
+    position: absolute;
+    left: 0;
+    top: 25%;
+}
+.heading p {
+    margin-bottom: 0;
+}
+.wrapper {
+    background-color: #16131ec9;
+    width: 100%;
+    min-height: 400px;
+}
+.quote {
+    font-size: 36px;
+    color: rgb(251, 252, 214);
+}
+.quote-footer {
+    font-size: 28px;
+}
+.down-side {
+    background-color: rgba(255, 245, 155, 0.397);
+}
+.picture {
+    border: 5px solid gray;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+.hw-first-required {
+    color: whitesmoke;
+}
+.picture-box {
+    padding: 40px 0;
+    width: 800px;
+    height: auto;
+    margin: 0 auto;
+}
+.exersise-box {
+    background-color: rgb(59, 58, 55);
+    width: 700px;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    padding: 15px 40px;
+    
+}
